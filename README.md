@@ -1,7 +1,7 @@
 # FlatBuffersDemo
 FlatBuffers Android Demo
 
-Setp1
+Step1
 ------------------------------
 
 生成fbs文件：    
@@ -19,7 +19,7 @@ Setp1
     
     
 
-Setp2
+Step2
 ------------------------------
 
 将fbs文件转成FlatBuffers的二进制java文件格式：
@@ -30,7 +30,7 @@ Setp2
 
 （3）生成文件User/User.java，将该文件拷贝到工程中使用。
 
-Setp3
+Step3
 ------------------------------
 
 在Java中使用
