@@ -1,7 +1,9 @@
 # FlatBuffersDemo
 FlatBuffers Android Demo
 
-###Step1
+Setp1
+------------------------------
+
 生成fbs文件：    
 如下fbs目录下的文件user_schema.fab
     
@@ -17,13 +19,20 @@ FlatBuffers Android Demo
     
     
 
-###Step2
+Setp2
+------------------------------
+
 将fbs文件转成FlatBuffers的二进制java文件格式：
+
 （1）使用fbs-tools目录下的工具flatc.exe（官网提供），
+
 （2）在window下打开cmd执行命令 flatc.exe -j -b user_schema.fbs，
+
 （3）生成文件User/User.java，将该文件拷贝到工程中使用。
 
-###Setp3
+Setp3
+------------------------------
+
 在Java中使用
    
     //User对象转Byte数组
