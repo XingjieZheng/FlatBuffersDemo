@@ -10,7 +10,7 @@ Step1
     namespace User;
     
     table User {
-      	name : string;
+        name : string;
         id : long;
         avatar_url : string;
     }
